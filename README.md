@@ -18,9 +18,9 @@ REST web app with NodeJS + Express + MongoDB
 * open browser and fill the address bar with
         localhost:3003
 
-### next plan
-[ ] edit user
-[ ] user pagination
+### next
+- [ ] edit user
+- [ ] user pagination
 
 ##### note
 this app is following http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/
