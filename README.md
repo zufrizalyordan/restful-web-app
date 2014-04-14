@@ -17,3 +17,7 @@ REST web app with NodeJS + Express + MongoDB
         npm start
 * open browser and fill the address bar with
         localhost:3003
+
+
+note :
+this app is following http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/
