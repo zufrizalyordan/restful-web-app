@@ -15,3 +15,5 @@ REST web app with NodeJS + Express + MongoDB
 * go to app folder
 * start using npm
         npm start
+* open browser and fill the address bar with
+        localhost:3003
