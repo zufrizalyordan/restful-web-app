@@ -19,5 +19,6 @@ REST web app with NodeJS + Express + MongoDB
         localhost:3003
 
 
-note :
+##### note
 this app is following http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/
+with some modified code to work with the Express 4
