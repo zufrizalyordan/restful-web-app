@@ -10,6 +10,10 @@ var users = require('./routes/users');
 
 var app = express();
 
+// database access
+var mongo = require('mongoskin');
+var db = mongo.db("mongodb://localhost:27017/rwa", {native_parser:true});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
