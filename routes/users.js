@@ -24,4 +24,13 @@ router.post('/', function(req, res){
 
 });
 
+router.delete('/:id', function(req, res){
+
+  var userToDelete = req.params.id;
+  db.collection('userlist').removeById(userToDelete, function(err, result) {
+    res.send((result === 1) ? { msg: '' } : { msg:'error: ' + err });
+  });
+
+});
+
 module.exports = router;
